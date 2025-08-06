@@ -6,6 +6,7 @@ on:
     paths:
       - 'app/**'
       - 'k8s/hello-world-chart/**'
+  workflow_dispatch:
 
 jobs:
   build-deploy:
