@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: kthondiraj/hello-world-app
+  tag: latest
+  pullPolicy: Always
+
+redis:
+  architecture: standalone
+  auth:
+    enabled: false
