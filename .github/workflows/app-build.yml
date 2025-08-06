@@ -2,7 +2,7 @@ name: Build & Deploy App
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'app/**'
       - 'k8s/hello-world-chart/**'
