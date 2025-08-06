@@ -1,6 +1,10 @@
-# Terraform
-*.tfstate
-*.tfstate.backup
-.terraform/
-.terraform.lock.hcl
-terraform.tfvars
+# Terraform state files
+terraform/*.tfstate
+terraform/*.tfstate.backup
+
+# Terraform lock file
+terraform/.terraform.lock.hcl
+
+# Terraform provider directories and plugins
+terraform/.terraform/
+
